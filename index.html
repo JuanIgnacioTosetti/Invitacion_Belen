@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Invitación XV Belu</title>
+</head>
+<body>
+    <div class="musica">
+        <div class="fondo-btn">
+           <!-- El botón de play -->
+            <button id="play-btn"><i class="fa fa-play"></i></button>
+
+            <!-- El audio que se reproducirá -->
+            <audio id="audio">
+            <source src="./img/TINI, Beéle - Fantasi (Video Oficial) (128 kbps).mp3" play="autoplay" type="audio/mp3">
+            </audio>
+        </div>
+    </div>
+
+    <button id="swipe-btn"><i class="arrow-btn fa-solid fa-arrow-down fa-bounce fa-2xl"></i></button>
+
+
+    <section id="home" class="invitacion">
+        <p>Te invito a</p>
+        <h1 class="texto">Mi fiesta de 15</h1>
+        <p class="txt-faltan">Faltan:</p>
+        <div id="cuentaRegresiva"></div>
+      </section>
+
+      <section id="lugar" class="lugar">
+        <h2 class="title">Dónde  y cuándo lo festejo</h2>
+        <div>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.6314754837358!2d-57.90736745363698!3d-34.9256316650136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2ef51cd2d5e11%3A0xf3c2976cfb1a3d89!2sCentro%20Molisano%20Sant&#39;El%C3%ADa!5e0!3m2!1ses!2sar!4v1680651411445!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Centro Molisano Sant'Elia, Calle 120 e/ 79 y 80, 2320<br>
+                11 de noviembre de 2023, 20:00 hs</p>
+            <a class="btn-evento" target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NjE1ZDRiYWMxbTZmamNyY2YxNDVlMXBmZTAgdG9zZXR0aWp1YW41MUBt&amp;tmsrc=tosettijuan51%40gmail.com">Agendar Recordatorio</a>
+        </div>
+     </section>
+
+     <section id="dresscode" class="dresscode">
+        <h2 class="title">Dress Code</h2>
+        <p>Elegante Sport</p>
+        <img class="icon" src="./img/dresscode.svg" alt="dresscode">
+     </section>
+      
+      <section id="misFotos" class="misFotos">
+        <h2 class="misFotos title">
+            Mis fotos
+        </h2>
+        <div class="slider">
+            <div class="slide active" style="background-image: url('./img/2.jpg');"></div>
+            <div class="slide" style="background-image: url('./img/3.jpg');"></div>
+            <div class="slide" style="background-image: url('./img/4.JPG');"></div>
+            <div class="slide" style="background-image: url('./img/5.JPG');"></div>
+          </div>
+          
+      </section>
+
+      <section class="regalo">
+        <p>Para mí tu presencia es el mejor regalo, pero si querés obsequiarme algo, el día de la fiesta va a haber un cofre para dejar un sobre con dinero</p>
+      </section>
+
+      <section class="instagram">
+        <p>
+            Me gustaría seguir recordando este momento especial, cuando subas un post o historia a instagram no te olvides de usar
+        </p>
+        <h2>
+            <a href="https://www.instagram.com/explore/tags/xv_belu/" target="_blank">
+            #XV_BELU</a></h2>
+      </section>
+
+      <section class="fotos">
+        <p>Gracias por compartir este hermoso momento conmigo, haciendo click acá podes ver todas las fotos y videos</p>
+        <a href="./pagina de fotos/pagNoDisp.html">Ver Fotos</a>
+      </section>
+
+      <script src="https://kit.fontawesome.com/90cf09fba8.js" crossorigin="anonymous"></script>
+      <script src="/js/simplyCountdown.min.js"></script>
+      <script src="/js/countdown.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+      <script src="./js/audio.js"></script>
+      <script src="./js/swipe-btn.js"></script>
+      <script src="./js/slides.js"></script>
+</body>
+</html>
