@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Invitación XV Belu</title>
 </head>
@@ -16,13 +16,15 @@
             <button id="play-btn"><i class="fa fa-play"></i></button>
 
             <!-- El audio que se reproducirá -->
-            <audio id="audio">
-            <source src="./img/gold-sub-espanol.mp3" play="autoplay" type="audio/mp3">
+            <audio id="audio" autoplay>
+            <source src="./img/gold-sub-espanol.mp3"  type="audio/mp3">
             </audio>
         </div>
     </div>
 
-    <button id="swipe-btn"><i class="arrow-btn fa-solid fa-arrow-down fa-bounce fa-2xl"></i></button>
+    <button id="swipe-btn">
+      <img src="./img/arrow-down-solid.svg" alt="flecha" srcset="">
+    </button>
 
 
     <section id="home" class="invitacion">
