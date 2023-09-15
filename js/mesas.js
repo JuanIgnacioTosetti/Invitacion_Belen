@@ -22,3 +22,6 @@ selectMesa.addEventListener('change', function () {
         mesas[index].style.display = 'block';
     }
 });
+
+
+//reveal

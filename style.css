@@ -250,6 +250,7 @@ background: linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(223,200,127,1) 11
   background-color: var(--blanco);
   padding: 15px;
   border-radius: 10px;
+  border: var(--negro) solid 3px;
   text-decoration: none;
   color: var(--negro);
   transition: .5s;
@@ -258,6 +259,7 @@ background: linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(223,200,127,1) 11
   background-color: var(--negro);
   color: var(--blanco);
 }
+
 
 /* ---------------------- */
 
@@ -275,9 +277,35 @@ background: linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(223,200,127,1) 11
   flex-direction: column;
   padding: 100px 10px;
   text-align: center;
+ 
+}
+
+.sec-mesas li{
+  list-style: none;
+  font-weight: bold;
 }
 .mesa-title{
   font-size: 2em;
   text-align: center;
 }
 
+/* Estilo personalizado para el selector de mesas */
+#mesas{
+  margin-bottom: 25px;
+}
+.form-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid var(--dorado);
+  border-radius: 5px;
+  background-color: var(--blanco);
+  color: var(--negro);
+  cursor: pointer;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: var(--dorado1);
+  box-shadow: 0 0 5px var(--dorado1);
+}
