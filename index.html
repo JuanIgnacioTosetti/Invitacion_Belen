@@ -17,7 +17,7 @@
 
             <!-- El audio que se reproducirá -->
             <audio id="audio" autoplay>
-            <source src="./img/gold-sub-espanol.mp3"  type="audio/mp3">
+            <!-- <source src="./img/gold-sub-espanol.mp3"  type="audio/mp3"> -->
             </audio>
         </div>
     </div>
@@ -29,13 +29,13 @@
 
     <section id="home" class="invitacion">
         <p>Te invito a</p>
-        <h1 class="texto">Mi fiesta de 15</h1>
+        <h1 class="texto">Mi Fiesta de 15</h1>
         <p class="txt-faltan">Faltan:</p>
         <div id="cuentaRegresiva"></div>
       </section>
 
       <section id="lugar" class="lugar">
-        <h2 class="title">Dónde  y cuándo lo festejo</h2>
+        <h2 class="title">Dónde  y Cuándo lo festejo</h2>
         <div>
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.6314754837358!2d-57.90736745363698!3d-34.9256316650136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2ef51cd2d5e11%3A0xf3c2976cfb1a3d89!2sCentro%20Molisano%20Sant&#39;El%C3%ADa!5e0!3m2!1ses!2sar!4v1680651411445!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <p>Centro Molisano Sant'Elia, Calle 120 e/ 79 y 80, 2320<br>
@@ -51,9 +51,7 @@
      </section>
       
       <section id="misFotos" class="misFotos">
-        <h2 class="misFotos title">
-            Mis fotos
-        </h2>
+        
         <div class="slider">
             <div class="slide active" style="background-image: url('./img/2.jpg');"></div>
             <div class="slide" style="background-image: url('./img/3.jpg');"></div>
@@ -65,6 +63,10 @@
 
       <section class="regalo">
         <p>Para mí tu presencia es el mejor regalo, pero si querés obsequiarme algo, el día de la fiesta va a haber un cofre para dejar un sobre con dinero</p>
+        <br>
+        <p>o sino podes mandarlos acá:</p>
+        <p>cbu</p>
+        <p>alias</p>
       </section>
 
       <section class="instagram">
@@ -81,6 +83,97 @@
         <a href="./pagina de fotos/pagNoDisp.html">Ver Fotos</a>
       </section>
 
+      <section class="sec-mesas">
+        <div class="boton">
+          <h3 class="mesa-title">Busca en que mesa estas!</h3>
+          <label for="mesas" class="form-select" aria-label="Default select example">Selecciona una mesa:</label>
+          <select id="mesas">
+            <option value="mesa1">Mesa 1</option>
+            <option value="mesa2">Mesa 2</option>
+            <option value="mesa3">Mesa 3</option>
+            <option value="mesa4">Mesa 4</option>
+            <option value="mesa5">Mesa 5</option>
+            <option value="mesa6">Mesa 6</option>
+            <option value="mesa7">Mesa 7</option>
+            <option value="mesa8">Mesa 8</option>
+            <option value="mesa9">Mesa 9</option>
+            <option value="mesa10">Mesa 10</option>
+            <option value="mesa11">Mesa 11</option>
+            <option value="mesa12">Mesa 12</option>
+            <option value="mesa13">Mesa 13</option>
+          </select>
+        </div>
+          
+          <!-- Secciones para las mesas -->
+          <div id="mesa1" style="display: none;">
+              <!-- Contenido de la Mesa 1 -->
+              <ul>Belen Tosetti</ul>
+              <ul>Lorena Flores</ul>
+              <ul></ul>
+          </div>
+      
+          <div id="mesa2" style="display: none;">
+              <!-- Contenido de la Mesa 2 -->
+              <p>Contenido de la Mesa 2.</p>
+          </div>
+          
+          <div id="mesa3" style="display: none;">
+            <!-- Contenido de la Mesa 2 -->
+            <p>Contenido de la Mesa 3.</p>
+          </div>
+
+        <div id="mesa4" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+          <p>Contenido de la Mesa 2.</p>
+        </div>
+
+        <div id="mesa5" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+         <p>Contenido de la Mesa 2.</p>
+        </div>
+
+        <div id="mesa6" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+         <p>Contenido de la Mesa 2.</p>
+        </div>
+
+        <div id="mesa7" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+          <p>Contenido de la Mesa 2.</p>
+      </div>
+      
+        <div id="mesa8" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+          <p>Contenido de la Mesa 3.</p>
+        </div>
+
+        <div id="mesa9" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+          <p>Contenido de la Mesa 2.</p>
+        </div>
+
+        <div id="mesa10" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+        <p>Contenido de la Mesa 2.</p>
+        </div>
+
+        <div id="mesa11" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+        <p>Contenido de la Mesa 2.</p>
+        </div>
+
+        <div id="mesa12" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+        <p>Contenido de la Mesa 2.</p>
+        </div>
+
+        <div id="mesa13" style="display: none;">
+          <!-- Contenido de la Mesa 2 -->
+        <p>Contenido de la Mesa 2.</p>
+        </div>
+
+      </section>
+
       <script src="https://kit.fontawesome.com/90cf09fba8.js" crossorigin="anonymous"></script>
       <script src="/js/simplyCountdown.min.js"></script>
       <script src="/js/countdown.js"></script>
@@ -88,5 +181,6 @@
       <script src="./js/audio.js"></script>
       <script src="./js/swipe-btn.js"></script>
       <script src="./js/slides.js"></script>
+      <script src="./js/mesas.js"></script>
 </body>
 </html>

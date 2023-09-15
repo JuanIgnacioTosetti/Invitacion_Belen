@@ -14,7 +14,7 @@
 }
 
 body{
-  background-color: var(--dorado1);
+  background-color: var(--blanco);
 }
 
 .fondo-btn{
@@ -116,7 +116,7 @@ body{
   padding: 20px;
   text-align: center;
   background-color: var(--blanco);
-  color: var(--negro);
+  color: var(--blanco);
 }
 
 .title{
@@ -152,7 +152,7 @@ body{
 /* ----- Lugar --------------*/
 
 .lugar{
-  color: var(--blanco);
+  color: var(--dorado);
   margin: 60px 10px;
   text-align: left;
 }
@@ -179,13 +179,13 @@ body{
 .btn-evento{
   text-decoration: none;
   color: var(--negro);
-  background-color: var(--dorado);
+  background-color: var(--dorado1);
   padding: 5px;
   border-radius: 5px;
   transition: .5s;
 }
 .btn-evento:hover{
-  background-color: var(--blanco);
+  background-color: var(--dorado);
 }
 
 /* ------------------------ */
@@ -197,7 +197,6 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: var(--blanco);
 }
 
 .dresscode .icon{
@@ -214,8 +213,9 @@ body{
 
 /* ---------Regalo--------- */
 .regalo{
+  background-color: var(--blanco);
   text-align: center;
-  margin: 50px 80px;
+  padding: 50px 80px;
   color: var(--negro);
   font-size: 1.2em;
 }
@@ -223,7 +223,8 @@ body{
 /* -----Instagram------ */
 
 .instagram{
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 35%,#d6249f 80%,#285AEB 100%);
+  background: rgb(239,239,239);
+background: linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(223,200,127,1) 11%, rgba(212,175,55,1) 51%, rgba(219,192,104,1) 83%, rgba(239,239,239,1) 100%);
   padding: 50px 80px;
   color: var(--blanco);
   text-align: center;
@@ -264,3 +265,19 @@ body{
   height: 35px;
 
 }
+
+/* MESAS */
+
+.sec-mesas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 10px;
+  text-align: center;
+}
+.mesa-title{
+  font-size: 2em;
+  text-align: center;
+}
+
