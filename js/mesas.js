@@ -3,7 +3,7 @@ const selectMesa = document.getElementById('mesas');
 const mesas = [];
 
 // Llenar el array de mesas con las referencias a las divs correspondientes
-for (let i = 1; i <= 13; i++) {
+for (let i = 1; i <= 12; i++) {
     mesas.push(document.getElementById(`mesa${i}`));
 }
 
