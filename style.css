@@ -15,6 +15,7 @@
 
 body{
   background-color: var(--blanco);
+  overflow-x: hidden;
 }
 /* Mariposa */
 .mariposa {
@@ -54,7 +55,7 @@ body{
 
 #swipe-btn {
   position: fixed;
-  bottom: 20px;
+  bottom: 0px;
   right: 20px;
   display: block;
   opacity: 1;
@@ -72,16 +73,16 @@ body{
 .invitacion {
     background-image: url(/img/2.jpeg); /* Añadimos la imagen de fondo */
     background-size: cover; /* Ajustamos la imagen para que cubra todo el fondo */
-    background-position: center center; /* Centramos la imagen en el fondo */
+    background-position: top top; /* Centramos la imagen en el fondo */
     text-align: center; /* Centramos el texto horizontalmente */
     color: var(--blanco); /* Establecemos el color de texto a blanco para que contraste con el fondo */
-    padding: 120px 0; /* Añadimos un relleno para separar el texto del borde de la sección */
+    padding: 60px 0; /* Añadimos un relleno para separar el texto del borde de la sección */
     
 }
   
   h1 {
     font-size: 3em; /* Establecemos un tamaño de fuente grande para el título */
-    margin-bottom: 20px; /* Añadimos un margen inferior para separar el título del texto posterior */
+    margin-bottom: 30px; /* Añadimos un margen inferior para separar el título del texto posterior */
     text-shadow: 1px 1px 5px #232323;
   }
  
@@ -90,7 +91,7 @@ body{
 
 /* ----------Cuenta Regresiva------------- */
 .txt-faltan{
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 #cuentaRegresiva{
