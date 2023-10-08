@@ -57,7 +57,7 @@ body{
 }
 
 .invitacion {
-    background-image: url(/img/1.jpeg); /* Añadimos la imagen de fondo */
+    background-image: url(/img/2.jpeg); /* Añadimos la imagen de fondo */
     background-size: cover; /* Ajustamos la imagen para que cubra todo el fondo */
     background-position: center center; /* Centramos la imagen en el fondo */
     text-align: center; /* Centramos el texto horizontalmente */
@@ -277,6 +277,10 @@ background: linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(223,200,127,1) 11
   flex-direction: column;
   padding: 100px 10px;
   text-align: center;
+  background-color: #e5e5f7;
+opacity: 1;
+background-size: 20px 20px;
+background-image:  repeating-linear-gradient(to right, #D4AF37, #D4AF37 1px, #e5e5f7 1px, #e5e5f7);
  
 }
 
